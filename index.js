@@ -7,7 +7,7 @@ const markdown = require("./utils/generateMarkdown");
 const questions = [
   {
     type: "input",
-    name: "projectTitle",
+    name: "title",
     message: "What is the project title?",
   },
   {
@@ -24,11 +24,6 @@ const questions = [
     type: "input",
     name: "usageInformation",
     message: "Please type the usage information.",
-  },
-  {
-    type: "input",
-    name: "contributionGuidelines",
-    message: "Please type the contribution guidelines.",
   },
   {
     type: "input",
@@ -67,8 +62,8 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-  inquirer.prompt(questions[1]).then((answers) => {
-    console.log(questions[1]);
+  inquirer.prompt(questions).then((answers) => {
+    console.log(questions);
     console.log(answers);
   });
 }
