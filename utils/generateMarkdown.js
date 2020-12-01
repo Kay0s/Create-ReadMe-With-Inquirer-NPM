@@ -4,13 +4,13 @@ function generateMarkdown(data) {
  
 # ${data.badge}
 #Title of Contents
-1.[Desciption](#Description)<a name="Description"></a>
-2.[Installation](#Installation)<a name="Installation"></a>
-3.[Usage](#Usage)<a name="Usage"></a>
-4.[License](#License)<a name="License"></a>
-5.[Contributions](#Contributions)<a name="Contributions"></a>
-6.[Testing](#Testing)<a name="Testing"></a>
-7.[Questions](#Questions)<a name="Questions"></a>
+1.[Desciption](#Description)
+2.[Installation](#Installation)
+3.[Usage](#Usage)
+4.[License](#License)
+5.[Contributions](#Contributions)
+6.[Testing](#Testing)
+7.[Questions](#Questions)
 
 # Description
  ${data.description}
