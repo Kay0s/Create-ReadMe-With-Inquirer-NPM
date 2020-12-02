@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
  
 # ${data.badge}
-#Title of Contents
+# Title of Contents
 1.[Desciption](#Description)
 2.[Installation](#Installation)
 3.[Usage](#Usage)
@@ -16,24 +16,24 @@ function generateMarkdown(data) {
  ${data.description}
 
 
-#Installation 
+# Installation 
 ${data.installationInstructions}
 
 
-#Usage 
+# Usage 
 ${data.usageInformation}
 
-#License
+# License
  ${data.license}
 
 
-#Contriubtions 
+# Contriubtions 
 ${data.contributionGuidelines}
 
-#Testing
-# ${data.testInstructions}
+# Testing
+${data.testInstructions}
 
-#Questions 
+# Questions 
 ${data.gitHubUsername}
 ${data.email}`;
 }

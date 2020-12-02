@@ -1,14 +1,10 @@
 //
 const inquirer = require("inquirer");
 const fs = require("fs");
-const markdown = require("./utils/generateMarkdown");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-const writeFileAsnync = util.promisify(fs.writeFile);
-
 // array of questions for user
-const questions = ()=>{
-  return inquirer.prompt([
+const questions = [
   {
     type: "input",
     name: "title",
@@ -40,7 +36,7 @@ const questions = ()=>{
     message: "Please type the test instructions.",
   },
   {
-    type: "list-input",
+    type: "list",
     name: "license",
     message: "Please select the license for application.",
     choices: ["MIT", "GNU GPLv3"],
@@ -55,31 +51,22 @@ const questions = ()=>{
     name: "email",
     message: "Please enter your email.",
   },
-  ]);
-};
+];
 
 // function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (error) => {
- 
+    console.error(error);
   });
 }
 
 // function to initialize program
-const init = async() => {
-  console.log(questions);
-  console.log(answers);
-  try {
-  const answers = await promptUser();
-  const readme = generateMarkdown(data);
-  await inquirer.prompt(questions).then((answers) => {
-   console.log('Successfully wrote ReadMe.md');
-  }catch(err){
-    console.log(err);
-  }
-}
+const init = () => {
+  inquirer.prompt(questions).then((answers) => {
+    console.log(answers);
+    writeToFile("createdReadMe.md", generateMarkdown(answers));
+  });
 };
-
 
 // function call to initialize program
 init();
