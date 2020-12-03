@@ -2,8 +2,9 @@
 function generateMarkdown(data) {
   return `# ${data.title}
  
-# https://img.shields.io/badge/${data.license}
-# Title of Contents
+![badge](https://img.shields.io/badge/License-${data.license}-blue)
+
+# Table of Contents
 1.[Description](#description)\n
 2.[Installation](#installationInstructions)\n
 3.[Usage](#usageInformation)\n
@@ -34,7 +35,7 @@ ${data.contributionGuidelines}
 ${data.testInstructions}
 
 # Questions 
-${data.gitHubUsername}
+![GitHub Profile](https://github.com/${data.gitHubUsername})
 ${data.email}`;
 }
 

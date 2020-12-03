@@ -1,7 +1,8 @@
-# yes
+# y
  
-# https://img.shields.io/badge/MIT
-# Title of Contents
+![badge](https://img.shields.io/badge/License-MIT-blue)
+
+# Table of Contents
 1.[Description](#description)
 
 2.[Installation](#installationInstructions)
@@ -36,8 +37,8 @@ y
 y
 
 # Testing
-yy
+y
 
 # Questions 
-kay0s
-hamilton.kristina
+![GitHub Profile](https://github.com/Kay0s)
+k
