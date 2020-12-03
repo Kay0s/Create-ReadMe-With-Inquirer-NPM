@@ -27,12 +27,12 @@ const questions = [
   },
   {
     type: "input",
-    name: "contributionGuidelines",
+    name: "contribution",
     message: "Please type the contribution guidelines.",
   },
   {
     type: "input",
-    name: "testInstructions",
+    name: "test",
     message: "Please type the test instructions.",
   },
   {
@@ -43,7 +43,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "gitHubUsername",
+    name: "git",
     message: "Please type your GitHub username.",
   },
   {
