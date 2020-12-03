@@ -3,19 +3,19 @@
 ![badge](https://img.shields.io/badge/License-MIT-blue)
 
 # Table of Contents
-1.[Description](#description)
+- [Description](#description)
 
-2.[Installation](#installationInstructions)
+- [Installation](#installation)
 
-3.[Usage](#usageInformation)
+- [Usage](#usageInformation)
 
-4.[License](#license)
+- [License](#license)
 
-5.[Contributions](#contributionGuidelines)
+- [Contributions](#contributionGuidelines)
 
-6.[Testing](#testInstructions)
+- [Testing](#testInstructions)
 
-7.[Questions](#gitHubUsername)
+- [Questions](#gitHubUsername)
 
 
 # Description
@@ -30,15 +30,14 @@ y
 y
 
 # License
- ![license](https://spdx.org/licenses/MIT.html)
+undefined
 
 
-# Contriubtions 
+# Contributions 
 y
 
 # Testing
 y
 
 # Questions 
-![GitHub Profile](https://github.com/y)
-y
+[Kay0s](https://github.com/Kay0s/)
