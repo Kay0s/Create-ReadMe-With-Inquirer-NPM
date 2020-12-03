@@ -55,15 +55,17 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, (error) => {
-    console.error(error);
+  fs.writeFile(fileName, data, (err) => {
+    if (err) {
+      console.log(error, "Please resubmit your answers.");
+    }
   });
 }
 
 // function to initialize program
 const init = () => {
   inquirer.prompt(questions).then((answers) => {
-    console.log(answers);
+    console.log(answers, "Success!  README.md generated");
     writeToFile("createdReadMe.md", generateMarkdown(answers));
   });
 };

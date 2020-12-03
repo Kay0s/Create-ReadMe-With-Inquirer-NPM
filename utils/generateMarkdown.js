@@ -4,13 +4,13 @@ function generateMarkdown(data) {
  
 # ${data.badge}
 # Title of Contents
-1.[Desciption](#Description)
-2.[Installation](#Installation)
-3.[Usage](#Usage)
-4.[License](#License)
-5.[Contributions](#Contributions)
-6.[Testing](#Testing)
-7.[Questions](#Questions)
+1.[Description](#description)\n
+2.[Installation](#installationInstructions)\n
+3.[Usage](#usageInformation)\n
+4.[License](#license)\n
+5.[Contributions](#contributionGuidelines)\n
+6.[Testing](#testInstructions)\n
+7.[Questions](#gitHubUsername)\n
 
 # Description
  ${data.description}
