@@ -30,7 +30,7 @@ y
 y
 
 # License
- MIT
+ ![license](https://spdx.org/licenses/MIT.html)
 
 
 # Contriubtions 
@@ -40,5 +40,5 @@ y
 y
 
 # Questions 
-![GitHub Profile](https://github.com/Kay0s)
-k
+![GitHub Profile](https://github.com/y)
+y

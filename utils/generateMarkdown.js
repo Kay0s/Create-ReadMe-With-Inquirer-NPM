@@ -25,7 +25,9 @@ ${data.installationInstructions}
 ${data.usageInformation}
 
 # License
- ${data.license}
+if {
+  ${data.license} ==== MIT(Develop\mitLicense.txt)
+}
 
 
 # Contriubtions 
