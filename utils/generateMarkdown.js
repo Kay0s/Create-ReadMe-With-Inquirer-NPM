@@ -1,8 +1,7 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
-  let license;
-  if (data.license === "MIT") {
-    let mit = `MIT License
+function getLicense(license) {
+  if (license === "MIT") {
+    return `MIT License
   
           Copyright (c) [year] [fullname]
           
@@ -24,7 +23,8 @@ function generateMarkdown(data) {
           OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
           SOFTWARE.`;
   }
-
+}
+function generateMarkdown(data) {
   return `# ${data.title}
  
 ![badge](https://img.shields.io/badge/License-${data.license}-blue)
@@ -35,9 +35,9 @@ function generateMarkdown(data) {
 - [Installation](#installation)\n
 - [Usage](#usage)\n
 - [License](#license)\n
-- [Contributions](#contribution)\n
-- [Testing](#test)\n
-- [Questions](#git)\n
+- [Contributions](#contributions)\n
+- [Testing](#testing)\n
+- [Questions](#questions)\n
 
 # Description
  ${data.description}
@@ -51,16 +51,17 @@ ${data.installation}
 ${data.usage}
 
 # License
-${license}
+${getLicense(data.license)}
 
 
 # Contributions 
-${data.contribution}
+${data.contributions}
 
 # Testing
-${data.test}
+${data.testing}
 
 # Questions 
+${data.questions}
 [${data.git}](https://github.com/${data.git}/)
 ${data.email}`;
 }
