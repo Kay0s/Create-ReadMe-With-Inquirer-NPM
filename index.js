@@ -2,6 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
+const getLicense = require("./utils/getLicense");
 
 // array of questions for user
 const questions = [
@@ -54,8 +55,8 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, (err) => {
+function writeToFile(fileName, answers) {
+  fs.writeFile(fileName, answers, (err) => {
     if (err) {
       console.log(error, "Please resubmit your answers.");
     }
@@ -66,7 +67,8 @@ function writeToFile(fileName, data) {
 const init = () => {
   inquirer.prompt(questions).then((answers) => {
     console.log(answers, "Success!  README.md generated");
-    writeToFile("createdReadMe.md", generateMarkdown(answers));
+    const licenseInfo = getLicense(answers);
+    writeToFile("createdReadMe.md", generateMarkdown(answers, licenseInfo));
   });
 };
 
