@@ -1,40 +1,33 @@
 # v
 
-    ![badge](https://img.shields.io/badge/License-MIT-blue)
+![badge](https://img.shields.io/badge/License-MIT-blue)
 
-    ## Table of Contents
+## Table of Contents
 
-    - [Description](#description)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributions](#contributions)
+- [Testing](#testing)
+- [Questions](#questions)
 
-    - [Installation](#installation)
+## Description
 
-    - [Usage](#usage)
+  v
 
-    - [License](#license)
+## Installation
 
-    - [Contributions](#contributions)
+  v
 
-    - [Testing](#testing)
+## Usage
 
-    - [Questions](#questions)
+  v
 
-    ### Description
+## License
 
-    v
-
-    ### Installation
-
-    v
-
-    ### Usage
-
-    v
-
-    ### License
-
-    ![badge](https://img.shields.io/badge/License-MIT-blue)
-
-    MIT License
+  ![badge](https://img.shields.io/badge/License-MIT-blue)
+  MIT License
   
           Copyright (c) [year] [fullname]
           
@@ -56,24 +49,23 @@
           OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
           SOFTWARE.
 
-    ### Contributions
+## Contributions
 
-    v
+  v
 
-    ### Testing
+## Testing
 
-    v
+  v
 
-    ### Questions
+## Questions
 
-    Have questions or feedback?
+  Have questions or feedback?
 
-    Email:v
+  Email:v
 
-    Let's connect:
+  Let's connect:
 
-    GitHub Profile:[v](https://github.com/v/)
+  GitHub Profile:[v](https://github.com/v/)
 
-    GitHub Repository:[v](https://github.com/v/)
-
-    
+  GitHub Repository:[v](https://github.com/v/)
+  
