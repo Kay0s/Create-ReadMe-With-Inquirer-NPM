@@ -753,8 +753,9 @@ ${data.testing}
 
 # Questions 
 ${data.questions}
-[${data.git}](https://github.com/${data.git}/)
-${data.email}`;
+Have questions or feedback?  Let's connect:
+GitHub Profile:[${data.git}](https://github.com/${data.git}/)
+Email:${data.email}`;
 }
 
 module.exports = generateMarkdown;
