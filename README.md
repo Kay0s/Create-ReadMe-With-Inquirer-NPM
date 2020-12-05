@@ -45,7 +45,7 @@ To dynamically and quickly create a quality README, Inquirer NPM was utilized to
 
 ## Deployed
 
-- \*[Demo Video](https://drive.google.com/file/d/1Uo2BxhII6wYFS68GCXlU5y8LDCP4xwq2/view?usp=sharing)
+- \*[Demo Video](https://youtu.be/ObRt8Nd-Nxk)
 - \*[Deployed website](https://kay0s.github.io/Create-ReadMe-With-Inquirer-NPM/)
 - \*[GitHub Repository](https://github.com/Kay0s/Create-ReadMe-With-Inquirer-NPM)
 - \*[Example README Using App](./createdReadMe.md)
