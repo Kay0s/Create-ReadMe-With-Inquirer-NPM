@@ -11,7 +11,7 @@ function generateMarkdown(answers, licenseInfo) {
 - [Usage](#usage)
 - [License](#license)
 - [Contributions](#contributions)
-- [Testing](#testing)
+- [Tests](#tests)
 - [Questions](#questions)
 
 ## Description
@@ -33,11 +33,11 @@ function generateMarkdown(answers, licenseInfo) {
 
 ## Contributions
 
-  ${answers.contributions}
+GitHub Profile of Contributors:[${answers.contributions}](https://github.com/${answers.contributions}/)
 
-## Testing
+## Tests
 
-  ${answers.testing}
+  ${answers.tests}
 
 ## Questions
 
