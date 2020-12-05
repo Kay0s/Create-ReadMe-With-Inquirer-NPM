@@ -1,4 +1,4 @@
-# w
+# Dynamic README
 
 ![badge](https://img.shields.io/badge/License-MIT-blue)
 
@@ -14,22 +14,22 @@
 
 ## Description
 
-  w
+  Create a dynamic README using answers prompted from Inquirer NPM.
 
 ## Installation
 
-  w
+  Create a .gitignore file then use the command-lin, npm install.
 
 ## Usage
 
-  w
+  User's info is pulled from Inquirer NPM and fs.writeFile is used to render the feeddback to markdown.
 
 ## License
 
   ![badge](https://img.shields.io/badge/License-MIT-blue)
   MIT License
   
-          Copyright (c) 2020 w
+          Copyright (c) 2020 Kay0s
           
           Permission is hereby granted, free of charge, to any person obtaining a copy
           of this software and associated documentation files (the "Software"), to deal
@@ -51,21 +51,21 @@
 
 ## Contributions
 
-GitHub Profile of Contributors:[w](https://github.com/w/)
+GitHub Profile of Contributors:[Kay0s](https://github.com/Kay0s/)
 
 ## Tests
 
-  w
+  Check that Inquirer and .gitignore are installed.
 
 ## Questions
 
   Have questions or feedback?
 
-  Email:w
+  Email:hamilton.kristina@Gmail.com
 
   Let's connect:
 
-  GitHub Profile:[w](https://github.com/w/)
+  GitHub Profile:[Kay0s](https://github.com/Kay0s/)
 
-  GitHub Repository:[w](https://github.com/w/)
+  GitHub Repository:[Kay0s](https://github.com/Kay0s/)
   
